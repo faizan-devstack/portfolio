@@ -1,0 +1,14 @@
+{
+    "Certifications": [
+      {
+        "id": 1,
+        "time": "Jan 5, 2025",
+        "title": "IBM Full-Stack JavaScript Developer Professional Certificate",
+        "slug": "IBM-fullstack",
+        "description": "Front-end App built with Next.js, Tailwind CSS, TypeScript and shadCN components.",
+        "image": "/certifications/C1.png",
+        "link": "https://www.coursera.org/account/accomplishments/professional-cert/ZDUNQFEMN7Y2"
+      }
+    ]
+  }
+  

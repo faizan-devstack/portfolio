@@ -1,0 +1,21 @@
+{
+    "Projects": [
+      {
+        "id": 1,
+        "title": "Music School",
+        "slug": "music-school",
+        "description": "Front-end App built with Next.js, Tailwind CSS, TypeScript and shadCN components.",
+        "image": "/projects/music-school.png",
+        "link": "https://music-school-ruby-seven.vercel.app/"
+      },
+      {
+        "id": 2,
+        "title": "Anonymous",
+        "slug": "anonymous",
+        "description": "Full Stack Web App built with Next.js, Tailwind CSS, TypeScript and MongoDB.",
+        "image": "/projects/anonymous.png",
+        "link": "https://anonymous-lac.vercel.app/"
+      }
+    ]
+  }
+  
