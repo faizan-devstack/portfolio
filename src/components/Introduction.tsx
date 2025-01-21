@@ -44,20 +44,20 @@ export default function Introduction() {
                     <div className="flex flex-wrap gap-10 justify-center md:mb-20">
                         <Link href="https://github.com/faizan-devstack">
                             <Image
-                                src="/buttons/Github.jpg"
+                                src="/buttons/github.svg"
                                 alt="GitHub Logo"
-                                width={70}
-                                height={70}
+                                width={60}
+                                height={60}
                                 className="rounded animate-bounce-custom"
                             />
                         </Link>
                         <Link href="https://www.linkedin.com/in/ifaizan114/">
                             <Image
-                                src="/buttons/LinkedIn.png"
+                                src="/buttons/linkedin.svg"
                                 alt="LinkedIn Logo"
-                                width={70}
-                                height={70}
-                                className="rounded bg-white animate-bounce-custom"
+                                width={60}
+                                height={60}
+                                className="rounded-xl bg-white animate-bounce-custom"
                             />
                         </Link>
                     </div>
