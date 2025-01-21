@@ -44,7 +44,7 @@ export default function Certifications() {
       </div>
 
       {/* Certificate Section */}
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center">
         <Timeline data={data} />
       </div>
     </div>
