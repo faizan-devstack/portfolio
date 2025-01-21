@@ -15,7 +15,7 @@ function About() {
             </div>
             <div className="relative inline-block p-[3px] bg-gradient-to-r from-indigo-500 :to-purple-500 rounded-full my-10 animate-bounce-custom">
                 <Image
-                    src="/images/6.jpg"
+                    src="/images/5.JPG"
                     alt="Portrait"
                     width={300}
                     height={300}
