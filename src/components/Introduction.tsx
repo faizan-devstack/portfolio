@@ -7,12 +7,12 @@ import Image from 'next/image';
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 
-const words = `I specialize in building responsive, scalable, and user-friendly web applications using Next.js, Tailwind CSS, TypeScript, and MongoDB. I focus on writing clean, maintainable code to make projects reliable and easy to grow. My approach ensures that projects are delivered on time while maintaining high quality.`;
+const words = `With experience in developing responsive and scalable web applications using Next.js, Tailwind CSS, TypeScript, and MongoDB, I focus on delivering clean, maintainable code to ensure long-term reliability. Additionally, I have experience integrating AI-powered chatbots using the generative AI and Open AI API to enhance functionality and user engagement, ensuring high-quality solutions tailored to business needs.`;
 
 
 export default function Introduction() {
     return (
-        <div className="pt-4 w-full text-white flex flex-col justify-center items-center h-auto shadow-lg shadow-gray-800">
+        <div className="pt-4 px-2 w-full text-white flex flex-col justify-center items-center h-auto shadow-lg shadow-gray-800">
             <HeroHighlight>
                 <motion.h1
                     initial={{
