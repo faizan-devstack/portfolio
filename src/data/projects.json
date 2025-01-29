@@ -6,7 +6,7 @@
         "slug": "music-school",
         "description": "Front-end App built with Next.js, Tailwind CSS, TypeScript and shadCN components.",
         "image": "/projects/music-school.png",
-        "link": "https://music-school-ruby-seven.vercel.app/"
+        "link": "https://music-school-by-faizan.vercel.app/"
       },
       {
         "id": 2,
@@ -14,7 +14,23 @@
         "slug": "anonymous",
         "description": "Full Stack Web App built with Next.js, Tailwind CSS, TypeScript and MongoDB.",
         "image": "/projects/anonymous.png",
-        "link": "https://anonymous-lac.vercel.app/"
+        "link": "https://anonymous-by-faizan.vercel.app/"
+      },
+      {
+        "id": 3,
+        "title": "Next MongoDB",
+        "slug": "nextmongodb",
+        "description": "A Next.js app with MongoDB and Tailwind CSS that dynamically retrieves the user ID using square brackets in the URL.",
+        "image": "/projects/mongo_1.png",
+        "link": "https://nextmongodb-by-faizan.vercel.app/"
+      },
+      {
+        "id": 4,
+        "title": "Next appwrite",
+        "slug": "nextappwrite",
+        "description": "A Next.js and Appwrite-powered app with Context API, complex routing, and Tailwind CSS, ensuring seamless authentication and smooth navigation.",
+        "image": "/projects/appwrite_1.png",
+        "link": "https://nextappwrite-by-faizan.vercel.app/"
       }
     ]
   }
