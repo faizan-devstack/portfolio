@@ -13,7 +13,7 @@ function About() {
             <div className="flex justify-center text-4xl md:text-5xl my-8">
                 <p className="bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">About</p>
             </div>
-            <div className="relative inline-block p-[3px] bg-gradient-to-r from-indigo-500 :to-purple-500 rounded-full my-10 animate-bounce-custom">
+            <div className="relative inline-block p-[3px] bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full my-10 animate-bounce-custom">
                 <Image
                     src="/images/5.JPG"
                     alt="Portrait"
