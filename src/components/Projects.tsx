@@ -21,6 +21,10 @@ function Projects() {
             <div className="flex justify-center text-4xl md:text-5xl my-3">
                 <p className="bg-gradient-to-r  from-indigo-500 to-purple-500 bg-clip-text text-transparent leading-relaxed">Projects</p>
             </div>
+            <div className="mx-3 px-3 py-1 rounded-md text-wrap text-gray-200 bg-gray-500/10">
+                NOTE: You'll get the credentential of each project in my
+                <Link href="https://github.com/faizan-devstack" className="text-violet-700"> github account</Link>
+            </div>
             <div className="flex flex-wrap justify-center ">
                 {ProjectData.Projects.map((Project: Project) => (
                     <CardContainer key={Project.id} className="inter-var m-4">
