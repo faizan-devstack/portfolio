@@ -1,6 +1,6 @@
 "use client";
 
-import { TextGenerateEffect } from "./ui/text-generate-effect";
+import { TextGenerateEffect } from "../ui/text-generate-effect";
 import React from 'react'
 import Image from 'next/image'
 
@@ -8,7 +8,7 @@ const words = `I hold a bachelor's degree in civil engineering from COMSATS Univ
 
 function About() {
     return (
-        <div className="py-10 px-4 w-full flex flex-col justify-center items-center h-auto shadow-lg shadow-gray-800">
+        <section className="py-10 px-4 w-full flex flex-col justify-center items-center h-auto shadow-lg shadow-gray-800">
             {/* Title Section */}
             <div className="flex justify-center text-4xl md:text-5xl my-8">
                 <p className="bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">About</p>
@@ -25,7 +25,7 @@ function About() {
             <div>
                 <TextGenerateEffect words={words} />
             </div>
-        </div>
+        </section>
     )
 }
 

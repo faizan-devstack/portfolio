@@ -1,9 +1,9 @@
 import React from 'react';
-import SkillsCard from './ui/SkillCard';
+import SkillsCard from '../ui/SkillCard';
 
 export default function Skills() {
   return (
-    <div className="py-10 px-4 w-full flex flex-col justify-center items-center h-auto shadow-lg shadow-gray-800">
+    <section className="py-10 px-4 w-full flex flex-col justify-center items-center h-auto shadow-lg shadow-gray-800">
       {/* Title Section */}
       <div className="flex justify-center text-4xl md:text-5xl my-8">
       <p className="bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">Skills</p>
@@ -83,6 +83,6 @@ export default function Skills() {
           description="A web-based platform for hosting and collaborating on Git repositories, offering version control and CI/CD features."
         />
       </div>
-    </div>
+    </section>
   );
 }
