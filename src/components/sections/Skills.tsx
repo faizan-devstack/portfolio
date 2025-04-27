@@ -82,6 +82,21 @@ export default function Skills() {
           title="GitHub"
           description="A web-based platform for hosting and collaborating on Git repositories, offering version control and CI/CD features."
         />
+        <SkillsCard
+          logo="/skills/supabase.svg"
+          title="Supabase"
+          description="An open-source Firebase alternative, providing a scalable backend with real-time databases, authentication, and APIs for developers."
+        />
+        <SkillsCard
+          logo="/skills/openai.svg"
+          title="OpenAI"
+          description="Pioneering AI research and deployment, creating advanced models like ChatGPT to enhance human productivity."
+        />
+        <SkillsCard
+          logo="/skills/light-bulb.svg"
+          title="ProblemSolving"
+          description="A critical skill involving analyzing challenges, identifying solutions, and implementing effective strategies across diverse contexts."
+        />
       </div>
     </section>
   );

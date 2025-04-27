@@ -12,6 +12,7 @@ interface Project {
     description: string,
     image: string,
     link: string,
+    credentials: string,
 }
 
 function AllProjects() {
@@ -20,10 +21,6 @@ function AllProjects() {
             {/* Title Section */}
             <div className="flex justify-center text-4xl md:text-5xl my-3">
                 <p className="bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent leading-relaxed">All Projects</p>
-            </div>
-            <div className="mx-3 px-3 py-1 rounded-md text-wrap text-gray-200 bg-gray-500/10">
-                NOTE: You'll get the credentials for each project in my
-                <Link href="https://github.com/faizan-devstack" className="text-violet-700"> GitHub account</Link>.
             </div>
 
             {/* Display All Projects */}
@@ -53,6 +50,10 @@ function AllProjects() {
                                     </CardItem>
                                 </Link>
                             </div>
+                            <div className="text-white font-semibold mt-3">Credentials: </div>
+                            <CardItem as="p" translateZ="60" className="text-sm max-w-sm text-neutral-300">
+                                {project.credentials}
+                            </CardItem>
                         </CardBody>
                     </CardContainer>
                 ))}

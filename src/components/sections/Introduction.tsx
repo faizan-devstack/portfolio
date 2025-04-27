@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "../ui/hero-highlight";
 
-const words = `With experience in developing responsive and scalable web applications using Next.js, Tailwind CSS, TypeScript, and MongoDB, I focus on delivering clean, maintainable code to ensure long-term reliability. Additionally, I have experience integrating AI-powered chatbots using the generative AI and Open AI API to enhance functionality and user engagement, ensuring high-quality solutions tailored to business needs.`;
+const words = `With experience in building responsive, scalable, and high-performance web applications, I focus on writing clean, maintainable code to ensure long-term reliability. I am adept at integrating advanced technologies, including AI-driven solutions, to enhance functionality and user engagement. My approach prioritizes efficiency, innovation, and user-centric design, enabling me to deliver high-quality solutions tailored to business needs`;
 
 
 export default function Introduction() {

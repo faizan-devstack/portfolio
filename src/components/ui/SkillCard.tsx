@@ -47,6 +47,9 @@ const SkillsCard: React.FC<SkillsCardProps> = ({ logo, title, description }) => 
     Vercel: "bg-[#080808]",
     Git: "bg-[#F05539]",
     GitHub: "bg-[#292837]",
+    Supabase: "bg-[#75C878]",
+    OpenAI: "bg-[#16AC86]",
+    ProblemSolving: "bg-[#292837]",
   };
 
   const cardColor = cardColors[title] || cardColors["Default"];

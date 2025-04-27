@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
                     </Link>
 
                     {/* WhatsApp Link */}
-                    <Link href="https://wa.me/923404185500" passHref>
+                    {/* <Link href="https://wa.me/923404185500" passHref>
                         <div className="cursor-pointer flex items-center gap-1 group hover:text-indigo-500 ml-1">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
                             </svg>
                             <p className="text-sm sm:text-base">+92 340 4185500</p>
                         </div>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </nav>
