@@ -7,7 +7,7 @@ import Image from "next/image";
 const paragraphs = [
   `I hold a bachelor's degree in Civil Engineering from COMSATS University Islamabad. However, driven by my deep interest and passion for technology, I transitioned into web development. I have honed my skills in building responsive, scalable, and user-friendly web applications.`,
 
-  `Currently, I am working as a Next.js Developer at New Web Order, a company based in Bahria Phase 7, Rawalpindi. In this role, I contribute to developing high-performance web solutions, leveraging modern technologies to create seamless user experiences.`,
+  `Currently, I am working as a Full Stack Developer at New Web Order, a company based in Bahria Phase 7, Rawalpindi. In this role, I contribute to developing high-performance web solutions, leveraging modern technologies to create seamless user experiences.`,
 
   `I am committed to continuous learning and staying at the forefront of industry trends, ensuring that my expertise evolves with the ever-changing landscape of web development. My journey reflects a unique blend of formal education and proactive self-learning, driving my growth as a developer.`,
 ];
